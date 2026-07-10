@@ -1,10 +1,11 @@
 {
-  "version": "1.4.2",
-  "date": "2026-07-10",
+  "version": "1.4.1",
+  "date": "2026-07-05",
   "url": "https://gitee.com/huhuayue/uart-hyper-release/releases",
   "download_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper.exe",
   "changelog": [
-    "修复：无换行数据写入——连续 putchar/printf 无换行符时，500ms 超时自动刷盘到文件",
-    "修复：断开连接时不换行尾部数据丢失的问题"
+    "新增：版本更新检查（启动自检 + 关于页手动检查 + 升级弹窗，Gitee / GitHub 双源 + 超时）",
+    "优化：性能优化 + 新增节能模式（⚡ 一键降低空闲 GPU / CPU 占用）",
+    "优化：书签（右键菜单重命名 / 删除 + 长按拖动调整顺序 + 拖动时其它标签平滑避让）"
   ]
 }
