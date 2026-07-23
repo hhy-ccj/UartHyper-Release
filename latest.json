@@ -1,11 +1,15 @@
 {
-  "version": "1.4.2",
-  "date": "2026-07-10",
+  "version": "1.4.3-beta",
+  "date": "2026-07-23",
   "url": "https://gitee.com/huhuayue/uart-hyper-release/releases",
   "download_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper.exe",
   "changelog": [
-    "修复：无换行数据写入——连续 putchar/printf 无换行符时，2s 超时自动刷盘，防止数据丢失",
-    "修复：断开连接时不换行尾部数据丢失",
-    "优化：正常串口换行输出不受影响，仅在长时间无换行时介入"
+    "新增：打开文件窗口(Ctrl+O)，纯文本日志查看，隐藏串口控件",
+    "新增：行号显示功能(通用设置，默认关闭)",
+    "新增：Ctrl+S 保存当前窗口到文件",
+    "新增：过滤面板上下键导航 + 选中行高亮",
+    "优化：过滤关键词绿色高亮，搜索匹配行高亮",
+    "修复：ANSI彩色日志恢复正常渲染",
+    "修复：状态栏文件路径动态截断"
   ]
 }
