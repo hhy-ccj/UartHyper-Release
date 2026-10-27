@@ -3,6 +3,7 @@
   "date": "2026-10-27",
   "url": "https://gitee.com/huhuayue/uart-hyper-release/releases",
   "download_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper.exe",
+  "bat_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyperCmd.bat",
   "changelog": [
     "新增：鼠标选中后自动复制（通用设置，默认关闭）：在日志区拖选文字即自动复制到剪贴板，并提示已复制字符数",
     "新增：清屏时重新录制（通用设置，默认关闭）：清屏同时清空录制文件并重新写入，按时间戳保存时新建时间戳文件",
