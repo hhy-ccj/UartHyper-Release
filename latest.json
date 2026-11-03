@@ -1,17 +1,12 @@
 {
-  "version": "2.1-beta",
-  "date": "2026-10-27",
+  "version": "2.2-beta",
+  "date": "2026-11-03",
   "url": "https://gitee.com/huhuayue/uart-hyper-release/releases",
   "download_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper.exe",
   "bat_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyperCmd.bat",
   "changelog": [
-    "新增：鼠标选中后自动复制（通用设置，默认关闭）：在日志区拖选文字即自动复制到剪贴板，并提示已复制字符数",
-    "新增：清屏时重新录制（通用设置，默认关闭）：清屏同时清空录制文件并重新写入，按时间戳保存时新建时间戳文件",
-    "新增：命令行 UartHyperCmd.bat open [端口] / close [端口]：连接 / 断开串口（可带端口标签过滤）",
-    "优化：高速打印性能大幅提升——日志行分块渲染(吞吐 5~6 倍)、图表引擎数据裁剪、自适应帧率、节能模式(CPU 降低 25~42%)",
-    "优化：滚动条加宽(10px → 15px)",
-    "修复：图表显示/跳转/多Y轴等 7 项、自定义正则取第 2·3 个值、重启后文件窗口空白",
-    "修复：自动更新时连带下载命令行脚本 UartHyperCmd.bat（旧版脚本不含新增的 open / close 命令）",
-    "移除：实验性的“高速打印时自动切换 canvas 渲染”开关"
+    "修复：只打开串口、设备不输出时主进程 CPU 上涨 —— 读线程空闲路径按时间节流，驱动不按超时阻塞时自动退避（虚拟串口场景）",
+    "优化：过滤多关键词改为\"全部命中\"（AND），不再混入只命中部分关键词的行",
+    "优化：搜索 / 过滤改为按 Enter 才执行，输入过程不抖动；搜索与过滤记忆也只在 Enter 时写入"
   ]
 }
