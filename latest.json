@@ -1,19 +1,21 @@
 {
-    "version":  "2.3.0",
+    "version":  "2.2.1",
     "date":  "2026-11-08",
     "url":  "https://gitee.com/huhuayue/uart-hyper-release/releases",
     "download_url":  "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper.exe",
     "bat_url":  "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyperCmd.bat",
     "changelog":  [
-                      "新增：折叠条与标题栏常显版本",
-                      "优化：重构软件更新架构，一键升级可回退",
-                      "优化：显示设置重排，行号字号、对比度、滚动条可调",
-                      "优化：过滤框超长自动多行",
-                      "优化：串口按钮默认精灵球",
-                      "修复：搜索命中后回车不跳转",
-                      "修复：多关键词恢复任一命中（OR）"
+                      "一键升级：下载 zip 更新包并显示进度，关闭程序时自动安装，旧版本保留可回退",
+                      "打开即检查更新，之后每小时一次；关于页可手动检查，有更新直接弹出升级窗",
+                      "主界面底部折叠条常驻版本号，窗口标题栏同步显示当前版本",
+                      "设置→显示：行号字号与对比度并排一行，行号三项收进显示页",
+                      "设置→通用：添加串口按钮默认使用精灵球样式",
+                      "过滤输入框内容超长时自动多行显示（最多 10 行，超出可滚动）",
+                      "修复：多关键词过滤恢复「任一命中」（OR），修正合并版里 | 分隔失效",
+                      "修复：折叠线与圆形交接处恢复旧版 8px 间隙（配色与光效不变）",
+                      "修复：打开日志文件支持直接传入路径，不再强制弹出系统文件对话框"
                   ],
-    "package_url":  "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper-v2.3.0.zip",
-    "package_sha256":  "552775703868d8a6f5e7a26d382def0b40c0cb5b2bbb2fe94841ed37de419cf2",
-    "package_size":  3086625
+    "package_url":  "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper-v2.2.1.zip",
+    "package_sha256":  "0c1ce3a5b3a251802ece7f66387e232f75918aacc2b568409158db531c2476cb",
+    "package_size":  3086519
 }
