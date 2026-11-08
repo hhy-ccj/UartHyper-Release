@@ -1,21 +1,12 @@
 {
-    "version":  "2.2.1",
-    "date":  "2026-11-08",
-    "url":  "https://gitee.com/huhuayue/uart-hyper-release/releases",
-    "download_url":  "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper.exe",
-    "bat_url":  "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyperCmd.bat",
-    "changelog":  [
-                      "一键升级：下载 zip 更新包并显示进度，关闭程序时自动安装，旧版本保留可回退",
-                      "打开即检查更新，之后每小时一次；关于页可手动检查，有更新直接弹出升级窗",
-                      "主界面底部折叠条常驻版本号，窗口标题栏同步显示当前版本",
-                      "设置→显示：行号字号与对比度并排一行，行号三项收进显示页",
-                      "设置→通用：添加串口按钮默认使用精灵球样式",
-                      "过滤输入框内容超长时自动多行显示（最多 10 行，超出可滚动）",
-                      "修复：多关键词过滤恢复「任一命中」（OR），修正合并版里 | 分隔失效",
-                      "修复：折叠线与圆形交接处恢复旧版 8px 间隙（配色与光效不变）",
-                      "修复：打开日志文件支持直接传入路径，不再强制弹出系统文件对话框"
-                  ],
-    "package_url":  "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper-v2.2.1.zip",
-    "package_sha256":  "0c1ce3a5b3a251802ece7f66387e232f75918aacc2b568409158db531c2476cb",
-    "package_size":  3086519
+  "version": "2.2-beta",
+  "date": "2026-11-03",
+  "url": "https://gitee.com/huhuayue/uart-hyper-release/releases",
+  "download_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyper.exe",
+  "bat_url": "https://gitee.com/huhuayue/uart-hyper-release/raw/main/UartHyperCmd.bat",
+  "changelog": [
+    "修复：只打开串口、设备不输出时主进程 CPU 上涨 —— 读线程空闲路径按时间节流，驱动不按超时阻塞时自动退避（虚拟串口场景）",
+    "优化：过滤多关键词改为\"全部命中\"（AND），不再混入只命中部分关键词的行",
+    "优化：搜索 / 过滤改为按 Enter 才执行，输入过程不抖动；搜索与过滤记忆也只在 Enter 时写入"
+  ]
 }
